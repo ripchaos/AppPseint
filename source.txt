@@ -1,0 +1,20 @@
+Algoritmo Login
+	//Acá declaramos las datos de acceso
+	Definir usuario, contraseña Como Caracter
+	Definir camisetas, pantalones, tenis, gorras, abrigos, medias, pantaloneta Como Entero
+	Definir monto Como Entero
+	Definir descuento Como Entero
+	Definir
+	Escribir "Digite su Usuario"
+	//acá se define la operación
+	Leer usuario
+	Escribir "Digite su contraseña"
+	Leer contraseña
+	//condiciono
+		si usuario == "admin"y contraseña == "123" Entonces
+			Escribir "Los datos son correctos"
+		SiNo
+			Escribir "Los datos no son correctos"	
+	FinSi
+	
+FinAlgoritmo
